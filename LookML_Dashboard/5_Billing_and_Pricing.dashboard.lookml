@@ -2,7 +2,7 @@
   title: "Sales Billing and Pricing"
   layout: newspaper
   preferred_viewer: dashboards-next
-  description: ''
+  description: 'Analysis of invoicing accuracy, average deal size, and pricing trends to ensure revenue integrity and margin protection.'
   preferred_slug: VMRXJW8ou8ax9tT9Eiuyof
   elements:
   - name: Customer focused Price Variations

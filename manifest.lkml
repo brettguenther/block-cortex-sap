@@ -1,20 +1,20 @@
 constant: CONNECTION_NAME {
-  value: "cortex"
+  value: "default_bigquery_connection"
   export: override_required
 }
 
 constant: GCP_PROJECT {
-  value: "GCP Project ID"
+  value: "bguenther-450-20260307201536"
   export: override_required
 }
 
 constant: REPORTING_DATASET {
-  value: "Reporting Dataset Name"
+  value: "CORTEX_SAP_REPORTING"
   export: override_required
 }
 
 constant: CLIENT {
-  value: "Client ID"
+  value: "100"
   export: override_required
 }
 
@@ -50,3 +50,19 @@ constant: sign_change_multiplier {
 
 
 #} end additional constants
+
+constant: VIS_LABEL {
+  value: "Table - Financial Report"
+  export: override_optional
+}
+
+constant: VIS_ID {
+  value: "report_table-marketplace"
+  export:  override_optional
+}
+
+visualization: {
+  id: "@{VIS_ID}"
+  url: "https://marketplace-api.looker.com/viz-dist/report_table.js"
+  label: "@{VIS_LABEL}"
+}

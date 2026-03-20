@@ -2,7 +2,7 @@
   title: "Spend Analysis"
   layout: newspaper
   preferred_viewer: dashboards-next
-  description: ''
+  description: 'Comprehensive breakdown of total expenditures categorized by department and expense type to identify cost-saving opportunities.'
   preferred_slug: nduljjI5gByUjzwTT99hBL
   elements:
   - name: ''

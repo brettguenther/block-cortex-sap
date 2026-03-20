@@ -191,13 +191,13 @@ view: vendor_performance {
     suggest_persist_for: "10 minutes"
     hidden: no
   }
-  
+
   dimension: target_currency_tcurr {
     type: string
     sql: ${TABLE}.TargetCurrency_TCURR ;;
     hidden: no
   }
-  
+
   dimension: currency_key_waers2 {
     type: string
     sql: ${TABLE}.CurrencyKey_WAERS ;;
@@ -373,6 +373,7 @@ view: vendor_performance {
     sql: ${invoice_amount_in_target_currency} ;;
     value_format_name: Greek_Number_Format
     hidden: no
+    drill_fields: [purchasing_group_text_eknam,sum_invoice_amount_in_target_currency]
   }
 
   measure: sum_invoice_amount_in_target_currency_by_top_vendor {
@@ -432,7 +433,7 @@ view: vendor_performance {
     sql: ${name1} ;;
     hidden: no
   }
-  
+
   dimension: net_order_valuein_pocurrency_netwr {
     type: number
     sql: ${TABLE}.NetOrderValueinPOCurrency_NETWR ;;

@@ -20,7 +20,7 @@
   elements:
   - title: income statement table
     name: income statement table
-    type: marketplace_viz_report_table::report_table-marketplace
+    type: report_table-marketplace
     fields: [profit_and_loss_hierarchy_selection_sdt.hier1_node_text, profit_and_loss_hierarchy_selection_sdt.hier2_node_text,
       profit_and_loss_hierarchy_selection_sdt.hier3_node_text, profit_and_loss_03_selected_fiscal_periods_sdt.alignment_group_name_with_partial_indicator,
       profit_and_loss_03_selected_fiscal_periods_sdt.reporting_amount]

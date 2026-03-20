@@ -184,7 +184,7 @@ explore: sales_orders {
           and (${sales_order_partner_function.item_posnr} is Null or ${sales_order_partner_function_header.item_posnr} = '000000');;
     }
 
-    sql_always_where: ${client_mandt}='{{ _user_attributes['client_id_rep'] }}' ;;
+    # sql_always_where: ${client_mandt}='{{ _user_attributes['client_id_rep'] }}' ;;
 
   }
 

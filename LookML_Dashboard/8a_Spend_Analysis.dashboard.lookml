@@ -2,7 +2,7 @@
   title: "Spend Analysis by Top Vendors"
   layout: newspaper
   preferred_viewer: dashboards-next
-  description: ''
+  description: 'Detailed tracking of outflow to primary suppliers to evaluate vendor concentration, contract compliance, and negotiation leverage.'
   preferred_slug: xvgMbGq3Axh5UJcSs2OGLq
   elements:
   - title: Spend by Top Vendors Detailed Report

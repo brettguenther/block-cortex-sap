@@ -2,7 +2,7 @@
   title: "Accounts Payable"
   layout: newspaper
   preferred_viewer: dashboards-next
-  description: ''
+  description: 'Real-time monitoring of outstanding liabilities, upcoming payment deadlines, and aging schedules to manage short-term liquidity.'
   preferred_slug: zW4D9AhK2n0Ufdpf6iXd9X
   elements:
   - name: Key Accounts Payable Indicators

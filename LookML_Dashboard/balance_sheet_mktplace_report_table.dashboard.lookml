@@ -18,7 +18,7 @@
   - title: Balance Sheet
     name: Balance Sheet
     explore: balance_sheet
-    type: marketplace_viz_report_table::report_table-marketplace
+    type: report_table-marketplace
     fields: [balance_sheet_hierarchy_selection_sdt.hier1_node_text, balance_sheet_hierarchy_selection_sdt.hier2_node_text,
       balance_sheet.total_cumulative_amount_in_global_currency, balance_sheet.fiscal_year_period,
       balance_sheet_hierarchy_selection_sdt.hier3_node_text]
